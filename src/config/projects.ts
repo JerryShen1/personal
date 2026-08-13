@@ -15,81 +15,76 @@ export type ActivityItemType = {
 }
 
 // Awards
-export const awardsHeadLine = "Awards & Honors"
-export const awardsIntro = "Recognition for academic and professional achievements."
+export const awardsHeadLine = 'Awards & Honors'
+export const awardsIntro = 'Recognition for academic, artistic, and competitive achievements.'
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
-    description: '',
+    name: '青浦区艺术单项民乐组二等奖',
+    description: '民乐组比赛获奖',
     date: '2024',
-    location: 'SCLS, Shanghai',
+    location: '青浦区, 上海',
   },
   {
-    name: 'Zhui Ying Award',
-    description: '',
+    name: 'USACO',
+    description: '美国计算机奥林匹克竞赛',
+    date: '2024',
+    location: 'Online',
+  },
+  {
+    name: '二胡十级',
+    description: '中国音乐学院社会艺术水平考级',
     date: '2023',
-    location: 'Qingpu, Shanghai',
+    location: '上海',
   },
 ]
 
 // Research & Projects
-export const projectHeadLine = "Research & Projects"
-export const projectIntro = "Academic research and technical projects I've worked on."
+export const projectHeadLine = 'Research & Projects'
+export const projectIntro = 'Learning projects and coursework from AI Camp and beyond.'
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: '个人作品集网站',
+    description: '用 Next.js 和 Tailwind CSS 搭建的个人主页，展示学习与作品。',
+    link: { href: 'https://github.com/JerryShen1/personal', label: 'GitHub' },
+    tags: ['Website', 'Next.js', 'AI Camp'],
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
+    name: 'Python 入门练习',
+    description: '课程中的 Python 基础练习，包括变量、循环和小游戏。',
+    link: { href: '#', label: 'Coursework' },
+    tags: ['Python'],
   },
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'AI Camp Mini Project',
+    description: 'AI Camp 第一个迷你项目，学习 Git、网页开发与部署。',
+    link: { href: 'https://github.com/SCLS-AI-Camp/MP1', label: 'Template' },
+    tags: ['AI Camp', 'Git'],
   },
 ]
 
 // Hobbies & Volunteer
-export const activitiesHeadLine = "Hobbies & Volunteer"
-export const activitiesIntro = "Personal interests and community contributions."
+export const activitiesHeadLine = 'Hobbies & Volunteer'
+export const activitiesIntro = 'Personal interests and extracurricular activities.'
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
-    description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+    name: '练习二胡',
+    description: '坚持练习二胡，已通过十级考级，参加区艺术单项比赛。',
+    date: '2024',
+    location: '上海',
   },
   {
-    name: 'AI Ethics Discussion',
-    description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
+    name: 'AI Camp 学习',
+    description: '学习网页开发、Git 和 AI 应用。',
+    date: '2026',
+    location: '上海宋庆龄学校',
   },
   {
-    name: 'Code Review Session',
-    description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
+    name: 'Python 编程',
+    description: '课后练习与小项目，巩固编程基础。',
+    date: '2026',
+    location: '上海',
   },
 ]
