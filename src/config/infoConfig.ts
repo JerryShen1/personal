@@ -3,19 +3,19 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'jerryShen'
+export const headline = '上海宋庆龄学校本地土著'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
+  '你好，我是 jerryShen，上海宋庆龄学校的本地土著，在这里长大、学习，也热爱这所学校的一切。'
 export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+export const githubUsername = 'JerryShen1'
 
 // about page
 export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  '你好，我是 jerryShen，上海宋庆龄学校的本地土著。从小在这所学校长大，对这里的校园、老师和同学都有着很深的感情。',
+  '我正在 AI Camp 课程中学习网页开发与 AI 应用，希望通过这个项目记录自己的学习历程与作品。',
+  '这个网站是我的个人作品集，也会用来分享关于编程、人工智能和校园生活的点滴思考。',
 ]
 
 // blog
