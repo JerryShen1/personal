@@ -4,24 +4,24 @@ export * from './career'
 
 // personal info
 export const name = 'JerryShen'
-export const headline = '上海宋庆龄学校本地土著'
+export const headline = 'Local at Shanghai Soong Ching Ling School'
 export const introduction =
-  '你好，我是 JerryShen，上海宋庆龄学校的本地土著，在这里长大、学习，也热爱这所学校的一切。'
+  "Hi, I'm JerryShen — a local at Shanghai Soong Ching Ling School. I've grown up, studied, and built my life here, and I love everything about this school."
 export const email = '18019218496@163.com'
 export const githubUsername = 'JerryShen1'
 
 // about page
 export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
 export const aboutParagraphs = [
-  '你好，我是 JerryShen，上海宋庆龄学校的本地土著。从 2012 年来到这里，在这里长大、学习。',
-  '目前读高一，正在 AI Camp 课程中学习编程和 AI 应用。',
-  '这个网站用来记录我的学习历程和作品。',
+  "Hi, I'm JerryShen — a local at Shanghai Soong Ching Ling School. I've been here since 2012, growing up and learning on this campus.",
+  "I'm currently in Grade 10, studying programming and AI applications through the AI Camp course.",
+  'This website documents my learning journey and projects.',
 ]
 
 // blog
-export const blogHeadLine = "What I've thinking about."
+export const blogHeadLine = "What I've Been Thinking About"
 export const blogIntro =
-  "I've written something about AI, programming and life."
+  "I've written about AI, programming, and life."
 
 // social links
 export type SocialLinkType = {

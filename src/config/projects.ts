@@ -20,22 +20,22 @@ export const awardsIntro = 'Recognition for academic, artistic, and competitive 
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: '青浦区艺术单项民乐组二等奖',
-    description: '民乐组比赛获奖',
+    name: 'Second Prize, Qingpu District Folk Music Solo Competition',
+    description: 'Awarded in the folk music category.',
     date: '2024',
-    location: '青浦区, 上海',
+    location: 'Qingpu District, Shanghai',
   },
   {
     name: 'USACO',
-    description: '美国计算机奥林匹克竞赛',
+    description: 'USA Computing Olympiad.',
     date: '2024',
     location: 'Online',
   },
   {
-    name: '二胡十级',
-    description: '中国音乐学院社会艺术水平考级',
+    name: 'Erhu Level 10',
+    description: 'China Conservatory of Music social art level examination.',
     date: '2023',
-    location: '上海',
+    location: 'Shanghai',
   },
 ]
 
@@ -45,20 +45,23 @@ export const projectIntro = 'Learning projects and coursework from AI Camp and b
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: '个人作品集网站',
-    description: '用 Next.js 和 Tailwind CSS 搭建的个人主页，展示学习与作品。',
+    name: 'Personal Portfolio Website',
+    description:
+      'A personal homepage built with Next.js and Tailwind CSS to showcase my learning and projects.',
     link: { href: 'https://github.com/JerryShen1/personal', label: 'GitHub' },
     tags: ['Website', 'Next.js', 'AI Camp'],
   },
   {
-    name: 'Python 入门练习',
-    description: '课程中的 Python 基础练习，包括变量、循环和小游戏。',
+    name: 'Python Fundamentals Practice',
+    description:
+      'Basic Python exercises from coursework, covering variables, loops, and mini games.',
     link: { href: '#', label: 'Coursework' },
     tags: ['Python'],
   },
   {
     name: 'AI Camp Mini Project',
-    description: 'AI Camp 第一个迷你项目，学习 Git、网页开发与部署。',
+    description:
+      'The first AI Camp mini project — learning Git, web development, and deployment.',
     link: { href: 'https://github.com/SCLS-AI-Camp/MP1', label: 'Template' },
     tags: ['AI Camp', 'Git'],
   },
@@ -70,21 +73,22 @@ export const activitiesIntro = 'Personal interests and extracurricular activitie
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: '练习二胡',
-    description: '坚持练习二胡，已通过十级考级，参加区艺术单项比赛。',
+    name: 'Erhu Practice',
+    description:
+      'Practicing erhu regularly, passed Level 10 certification, and competed in district art competitions.',
     date: '2024',
-    location: '上海',
+    location: 'Shanghai',
   },
   {
-    name: 'AI Camp 学习',
-    description: '学习网页开发、Git 和 AI 应用。',
+    name: 'AI Camp Learning',
+    description: 'Learning web development, Git, and AI applications.',
     date: '2026',
-    location: '上海宋庆龄学校',
+    location: 'Shanghai Soong Ching Ling School',
   },
   {
-    name: 'Python 编程',
-    description: '课后练习与小项目，巩固编程基础。',
+    name: 'Python Programming',
+    description: 'After-class exercises and small projects to strengthen programming fundamentals.',
     date: '2026',
-    location: '上海',
+    location: 'Shanghai',
   },
 ]
