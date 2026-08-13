@@ -10,8 +10,8 @@ export type CareerItemType = {
 
 export const careerList: Array<CareerItemType> = [
   {
-    company: '上海宋庆龄学校',
-    title: '高一学生',
+    company: 'Shanghai Soong Ching Ling School',
+    title: 'Grade 10 Student',
     logo: 'college',
     start: '2012',
     end: 'Present',
